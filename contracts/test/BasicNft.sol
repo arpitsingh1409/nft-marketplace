@@ -8,14 +8,16 @@ contract BasicNft is ERC721 {
         "ipfs://bafkreidys4xvn7lq27l5zerb4bu5zg4a7urruocjlaw2ulazpumd2iwipe";
     uint256 private s_tokenCounter;
 
+    event PassMinted(uint256 indexed tokenId);
+
     constructor() ERC721("N-Word Pass Token", "NPASS") {
         s_tokenCounter = 0;
     }
 
-    function mintNft() public returns (uint256) {
+    function mintNft() public {
         _safeMint(msg.sender, s_tokenCounter);
+        emit PassMinted(s_tokenCounter);
         s_tokenCounter++;
-        return s_tokenCounter;
     }
 
     function tokenURI(

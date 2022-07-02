@@ -31,7 +31,7 @@
             }
           },
           "metadata": {
-            "useLiteralContent": false
+            "useLiteralContent": true
           }
         }
       },
@@ -76,7 +76,7 @@
             }
           },
           "metadata": {
-            "useLiteralContent": false
+            "useLiteralContent": true
           }
         }
       },
@@ -120,7 +120,7 @@
             }
           },
           "metadata": {
-            "useLiteralContent": false
+            "useLiteralContent": true
           }
         }
       },
@@ -162,7 +162,7 @@
             }
           },
           "metadata": {
-            "useLiteralContent": false
+            "useLiteralContent": true
           }
         }
       },
@@ -204,7 +204,7 @@
             }
           },
           "metadata": {
-            "useLiteralContent": false
+            "useLiteralContent": true
           }
         }
       },
@@ -248,7 +248,7 @@
             }
           },
           "metadata": {
-            "useLiteralContent": false
+            "useLiteralContent": true
           }
         }
       },
@@ -298,7 +298,7 @@
             }
           },
           "metadata": {
-            "useLiteralContent": false
+            "useLiteralContent": true
           }
         }
       },
@@ -340,7 +340,7 @@
             }
           },
           "metadata": {
-            "useLiteralContent": false
+            "useLiteralContent": true
           }
         }
       },
@@ -382,7 +382,7 @@
             }
           },
           "metadata": {
-            "useLiteralContent": false
+            "useLiteralContent": true
           }
         }
       },
@@ -424,7 +424,7 @@
             }
           },
           "metadata": {
-            "useLiteralContent": false
+            "useLiteralContent": true
           }
         }
       },
@@ -466,7 +466,7 @@
             }
           },
           "metadata": {
-            "useLiteralContent": false
+            "useLiteralContent": true
           }
         }
       },
@@ -481,8 +481,8 @@
       ]
     },
     "/home/arpitdev/hardhat-nft-marketplace/contracts/test/BasicNft.sol": {
-      "lastModificationDate": 1656754390209,
-      "contentHash": "21b4f5f66090164b7b021d54f9542a71",
+      "lastModificationDate": 1656756897308,
+      "contentHash": "291ae2e575c407046c3b76512e367f9d",
       "sourceName": "contracts/test/BasicNft.sol",
       "solcConfig": {
         "version": "0.8.12",
@@ -510,7 +510,7 @@
             }
           },
           "metadata": {
-            "useLiteralContent": false
+            "useLiteralContent": true
           }
         }
       },
