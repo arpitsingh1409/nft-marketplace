@@ -19,3 +19,7 @@
     2. Improve frontend.
 
     3. Add a watchlist feature using off-chain services (or centralised).
+
+**-----------------------------------------------------------------------------------------------------------------------**
+
+**Follow the instructions given in env.example and then rename the file from "env.example" to ".env"**
