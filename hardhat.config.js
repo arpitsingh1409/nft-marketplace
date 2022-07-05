@@ -19,11 +19,14 @@ const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY;
 module.exports = {
   defaultNetwork: "hardhat",
   networks: {
+    localhost: {
+      chainId: 31337,
+    },
     hardhat: {
       chainId: 31337,
-      forking: {
-        url: MAINNET_RPC_URL,
-      },
+      // forking: {
+      //   url: MAINNET_RPC_URL,
+      // },
     },
     rinkeby: {
       chainId: 4,
